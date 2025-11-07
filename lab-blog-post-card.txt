@@ -1,0 +1,85 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="styles.css" rel="stylesheet" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+</head>
+<body>
+    <main>
+        <br>
+        <br>
+        <br>
+        <div class="blog-post-card">
+            
+            <img class="post-img" src="https://i.postimg.cc/Jnrbm06q/grok-image-xm79hph.png" alt="dragon-logo">
+        
+            <div class="post-content">
+                <h2 class="post-title">What are people saying?
+                </h2>
+                <p class="post-excerpt">"Wow! This 'webman' guy really knows his stuff! I'm so glad I hired this handsome and charming developer."
+                </p>
+                <a class="read-more">Read More          
+                </a>
+            </div>
+        
+        
+        </div>
+        <br>
+        <br>
+        <br>
+
+    </main>
+
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+main {
+  background-color: grey
+}
+
+.blog-post-card {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto; 
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0.1)
+}
+
+.post-img {
+  width: 300px;
+  border-bottom: 10px solid orangered;
+}
+
+.post-content {
+  padding: 10px;
+}
+
+.post-excerpt, .post-title { 
+  color:orangered;
+}
+
+.read-more {
+  display: inline-block;
+  color: antiquewhite;
+  background-color: orangered;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 7px
+}
+
+.read-more:hover {
+  background-color: grey;
+}
+
+** end of styles.css **
+
